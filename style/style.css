@@ -260,7 +260,7 @@ header .container .navbar .sub-nav:hover .sub-menu {
 
 .tours {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 120px auto;
     text-align: center;
 }
 
@@ -269,6 +269,7 @@ header .container .navbar .sub-nav:hover .sub-menu {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:30px;
     text-align: left;
+    margin-top:80px;
 }
 
 .tours .list .item h1{
@@ -289,5 +290,108 @@ header .container .navbar .sub-nav:hover .sub-menu {
     background-color: #0F3285;
     padding: 15px 20px 20px 20px;
     color:#fff;
+}
+
+.tours .list .item .content .time{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.tours .list .item .content .content-bottom{
+    border-top: 1px solid #eee;
+    margin-top:15px;
+    padding-top:15px;
+}
+
+.tours .list .item .content .content-bottom{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.tours .list .item .content i{
+    margin-right: 5px;
+}
+
+.tours .list .item .content .time span:hover i,
+.tours .list .item .content .content-bottom a:hover{
+    color:#ef9632;
+}
+
+.tours .list .item:hover{
+    box-shadow:  0 20px 40px -10px rgba(0, 0, 0, 0.637);
+    transition: .2s ease;
+}
+
+.tours .list .item:hover img{
+    cursor:pointer;
+}
+
+.plan{
+    background-color: #1E272E;
+    padding: 100px;
+}
+
+.plan .content {
+    max-width: 1280px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:30px;
+}
+
+.plan .content .col-left{
+    color:#fff;
+}
+
+.plan .content .col-left h1{
+    margin-bottom: 20px;
+}
+
+.plan .content .col-right img {
+    width:90%;
+}
+
+.testimonial {
+    max-width: 1280px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.testimonial .content {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.testimonial .content p{
+    line-height: 1.8;
+}
+.testimonial .content i{
+    font-size: 45px;
+    color:#ef9632;
+    margin-right: 10px;
+}
+
+.testimonial .content .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.testimonial .content .info img{
+    border-radius: 90px;
+}
+
+.testimonial .content .info p:first-child{
+    font-family: Quicksand-bold;
+    color:red;
+    line-height: 1;
+}
+.testimonial .content .info p:last-child{
+    color:#8c9398;
+    font-size: 13px;
 }
 
