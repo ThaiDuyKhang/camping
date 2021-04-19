@@ -70,9 +70,7 @@ p{
     position: relative;
     display: flex;
 }
-.header .container .navbar .sub-menu a{
-    color: #000;
-}
+
 .header .container .navbar .sub-menu{
     display: flex;
     flex-direction: column;
@@ -81,18 +79,28 @@ p{
     padding: 15px 25px;
     background-color: #fff;
     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.116);
-    top: 30px;
+    top: 25px;
     right: 22%;
     text-align: left;
     line-height:2;
     visibility: hidden;
     opacity: 0;
+    transition: .3s all;
 }
 
 .header .container .navbar .sub-nav:hover .sub-menu {
     visibility: visible;
     opacity: 1;
+    transition: .3s all;
 }
+.header .container .navbar .sub-nav  .sub-menu a{
+    color: #000;
+}
+.header .container .navbar .sub-nav .sub-menu a:hover {
+    color: #ef9632;
+    transition: .3s all;
+}
+
 .carousel{
     background: url('/img/banner.jpg') no-repeat center center;
     background-size: cover;
